@@ -95,7 +95,6 @@ function Home() {
           <option value="New York City">New York City</option>
           <option value="Sedona">Sedona</option>
           <option value="Lake Tahoe">Lake Tahoe</option>
-          {/* Add more locations as needed */}
         </select>
         <select
           value={priceFilter}
@@ -105,7 +104,6 @@ function Home() {
           <option value="200">Up to $200</option>
           <option value="300">Up to $300</option>
           <option value="400">Up to $400</option>
-          {/* Add more price ranges as needed */}
         </select>
         <select
           value={bedroomsFilter}
@@ -116,7 +114,6 @@ function Home() {
           <option value="2">2 Bedrooms</option>
           <option value="3">3 Bedrooms</option>
           <option value="4">4 Bedrooms</option>
-          {/* Add more bedroom options as needed */}
         </select>
       </div>
       <PropertyList properties={filteredProperties} />

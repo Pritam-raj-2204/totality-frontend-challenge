@@ -12,7 +12,7 @@ function Checkout() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert('Booking confirmed!'); // Placeholder for actual booking logic
+    alert('Booking confirmed!'); 
   };
 
   return (
