@@ -50,34 +50,13 @@ This project is a property rental platform designed to allow users to browse a v
 4. **Access the Application**:
     - Open your browser and navigate to `http://localhost:3000`.
 
-## Deployment
-
-To deploy the application, you can use platforms like Vercel, Netlify, or GitHub Pages. The following steps outline a typical process using Vercel:
-
-1. **Build the application**:
-    ```bash
-    npm run build
-    ```
-
-2. **Deploy**:
-    - Follow the instructions on Vercel to connect your GitHub repository and deploy the project.
 
 ## Additional Notes
 
 - **Scalability**: The current setup can be easily extended with additional features like user authentication, property reviews, and integration with a backend API for dynamic data fetching.
 - **Testing**: Consider adding unit and integration tests to ensure the application functions correctly and to facilitate future development.
 
-## Contributing
 
-Contributions are welcome! Please fork the repository and submit a pull request with your changes.
-
-## License
-
-This project is licensed under the MIT License.
-
-## Acknowledgements
-
-- Thanks to the React and JavaScript communities for providing excellent resources and tools.
 
 ## Website Link
     - Open your browser and navigate to
