@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+Property Rental Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Overview
 
-## Available Scripts
+This project is a property rental platform built using React. The platform allows users to browse various properties, view details, add properties to their cart, and proceed to checkout. The site includes features like property filtering and booking management.
 
-In the project directory, you can run:
+Features
 
-### `npm start`
+- Property Listings: Display properties with images, titles, descriptions, prices, and "Book Now" buttons.
+- Filter Properties: Filter properties by location, price range, number of bedrooms, and amenities.
+- Booking Management: Add properties to a cart and manage bookings.
+- Checkout: Complete the booking process with user details.
+- Responsive Design: The website is fully responsive and optimized for mobile and desktop views.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- React: JavaScript library for building user interfaces.
+- React Router: For routing in the single-page application.
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Prerequisites
 
-### `npm run build`
+- Node.js and npm installed on your machine.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/your-username/totality-frontend-challenge.git
+    cd totality-frontend-challenge
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Install dependencies:
+    - Navigate to the project directory and install dependencies:
+      ```bash
+      npm install
+      ```
 
-### `npm run eject`
+3. Start the React development server:
+    - Run the following command:
+      ```bash
+      npm start
+      ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. Access the Application:
+    - Open your browser and navigate to `http://localhost:3000` to view the application.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Deployment
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- You can deploy the frontend on platforms like Vercel, Netlify, or GitHub Pages.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Contributing
 
-## Learn More
+Feel free to fork this repository, make improvements, and submit a pull request. Contributions are always welcome!
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project is licensed under the MIT License.
 
-### Code Splitting
+Acknowledgements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- [React](https://reactjs.org/)
+- [React Router](https://reactrouter.com/)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
